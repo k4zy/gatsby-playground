@@ -3,5 +3,5 @@ module.exports = {
   siteMetadata: {
     title: 'PWA site sample',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: ['gatsby-plugin-react-helmet', `gatsby-plugin-typescript`],
 }
