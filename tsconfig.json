@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
+      "outDir": "./dist",
       "target": "es2017",
-      "module": "es2015",
+      "module": "commonjs",
+      "esModuleInterop": true,
       "allowJs": true,
-      "jsx": "react",
       "sourceMap": true,
-        "outDir": "./dist",
       "strict": true,
       "skipLibCheck": true,
+      "jsx": "react",
       "moduleResolution": "node"
     },
     "include": ["./src/"]

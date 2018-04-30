@@ -1,11 +1,13 @@
-import * as React from 'react';
+import React from 'react';
 import Link from 'gatsby-link';
 
 class Index extends React.Component<any, any> {
-  componetDidMound() {
+  componentDidMount() {
     console.log('Hello World');
   }
-
+  componentWillMount() {
+    console.log('{pre}Hello World');
+  }
   render() {
     return (
       <div>

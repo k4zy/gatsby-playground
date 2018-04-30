@@ -1,18 +1,7 @@
 {
   "name": "pwa-site-with-gatsby",
-  "description": "Pwa playground",
   "version": "1.0.0",
-  "author": "Kazuki Yoshida <kzk.yshd@gmail@gmail.com>",
-  "dependencies": {
-    "@types/react": "15.0.21",
-    "@types/react-dom": "0.14.23",
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": ["gatsby"],
-  "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
@@ -20,6 +9,14 @@
     "format": "prettier --write 'src/**/*.{js,ts,tsx}'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@types/react": "15.0.21",
+    "@types/react-dom": "0.14.23",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "gatsby-plugin-typescript": "^1.4.20",
