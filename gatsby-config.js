@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/pwa',
   siteMetadata: {
     title: 'PWA site sample',
   },
