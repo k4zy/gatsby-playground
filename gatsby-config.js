@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/pwa',
+  pathPrefix: '/gatsby-playground',
   siteMetadata: {
     title: 'PWA site sample',
   },
