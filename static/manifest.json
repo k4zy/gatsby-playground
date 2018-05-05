@@ -1,0 +1,11 @@
+{
+  "short_name": "b.hatena",
+  "name": "hatena bookmark reader",
+  "icons": [
+    {
+      "src": "launcher-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}

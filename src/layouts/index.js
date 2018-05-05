@@ -13,7 +13,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
-    />
+    >
+      <link rel="manifest" href="/manifest.json" />
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
