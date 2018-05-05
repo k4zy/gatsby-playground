@@ -8,5 +8,6 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/?utm_source=homescreen"
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone"
 }
