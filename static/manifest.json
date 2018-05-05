@@ -8,6 +8,6 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "https://kazy1991.github.io/gatsby-playground/?utm_source=homescreen",
   "display": "standalone"
 }
