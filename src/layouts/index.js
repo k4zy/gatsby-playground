@@ -14,7 +14,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     >
-      <link rel="manifest" href="/manifest.json" />
+      <link rel="manifest" href="/gatsby-playground/manifest.json" />
     </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
